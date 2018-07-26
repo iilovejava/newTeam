@@ -13,5 +13,9 @@ import java.util.List;
 @Controller
 public class UserController {
   //我改了
+    @RequestMapping(value = "login")
+    public String login(){
+        return "login";
+    }
 
 }
